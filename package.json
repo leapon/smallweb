@@ -1,0 +1,9 @@
+{
+    "name": "smallweb",
+    "version": "0.1.0",
+    "description": "A small webserver",
+    "author": "leapon",
+    "dependencies": {
+        "mu2": "*"
+    }
+}

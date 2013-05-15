@@ -1,11 +1,14 @@
 exports.setting = {
-    name: 'smallweb server',
-    webroot: 'c:\\dev\\web',
+    name: 'SmallWeb Server',
+    webroot: 'web', // can use absolute path, for example: 'c:\\dev\\web',
     layout: true, // if true, use layout.html as layout file
     cache: false, // if true, html/template is cached
     port: 8888,
     location: {
-        lib: 'c:\\dev\\lib'
+        lib: 'lib'  // can use absolute path, for example: 'c:\\dev\\lib'
+    },
+    module: {
+        'hello': 'hello'
     },
     media_types: {
         // application

@@ -10,3 +10,6 @@ Quick Start
 > node smallweb.js 
 
 Visit website at url: http://localhost:8888
+
+
+License: MIT
